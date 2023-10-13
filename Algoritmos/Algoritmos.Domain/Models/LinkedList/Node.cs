@@ -1,6 +1,4 @@
-﻿using System.Drawing;
-
-namespace Algoritmos.Domain.Models.LinkedList
+﻿namespace Algoritmos.Domain.Models.LinkedList
 {
     public class Node<T>
     {
