@@ -1,12 +1,10 @@
-﻿using Algoritmos.Domain.Models.LinkedList;
-
-namespace Algoritmos.Domain.Models.Stack
+﻿namespace Algoritmos.Domain.Models.Stack
 {
     public class NodeStack<T>
     {
         private Node<T>? Top  = null;
 
-        public NodeStack(Node<T>? top)
+        public NodeStack(Node<T>? top = null)
         {
             Top = top;
         }
@@ -55,7 +53,7 @@ namespace Algoritmos.Domain.Models.Stack
         public int Count()
         {
             int count = 0;
-            Node<T> current = Top;
+            Node<T>? current = Top;
 
             while (current != null)
             {

@@ -1,5 +1,7 @@
 ﻿using System.Diagnostics;
+using Algoritmos.Domain.Models;
 using Algoritmos.Domain.Models.LinkedList;
+using Algoritmos.Domain.Models.Queue;
 using Algoritmos.Domain.Models.Stack;
 
 namespace Algoritmos.ConsoleApp
@@ -134,12 +136,12 @@ namespace Algoritmos.ConsoleApp
             #endregion
 
             #region NodeStack
-            ////Faca uma Stack de nós, contendo os métodos Count, Peek, Push e Pop
+            //Faca uma Stack de nós, contendo os métodos Count, Peek, Push e Pop
 
             //Stopwatch stopwatch = new Stopwatch();
             //stopwatch.Start();
 
-            //NodeStack<int> nodeStack = new NodeStack<int>(null);
+            //NodeStack<int> nodeStack = new NodeStack<int>();
 
             //nodeStack.Push(new Node<int>(10));
             //nodeStack.Push(new Node<int>(20));
@@ -153,6 +155,34 @@ namespace Algoritmos.ConsoleApp
 
             //Node<int> poppedNode = nodeStack.Pop();
             //Console.WriteLine($"Elemento removido: {poppedNode.Value}");
+
+            //stopwatch.Stop();
+
+            //long time = stopwatch.ElapsedMilliseconds;
+
+            //Console.WriteLine($"Tempo de execução: {time} ms");
+            #endregion
+
+            #region NodeQueue
+            ////Faca uma Fila de nós, contendo os métodos Enqueue, Dequeue, Count e para imprimir a fila
+
+            //Stopwatch stopwatch = new Stopwatch();
+            //stopwatch.Start();
+
+            //NodeQueue<int> nodeQueue = new NodeQueue<int>();
+
+            //nodeQueue.Enqueue(new Node<int>(10));
+            //nodeQueue.Enqueue(new Node<int>(20));
+            //nodeQueue.Enqueue(new Node<int>(30));
+
+            //Console.WriteLine("Conteúdo da fila:");
+            //nodeQueue.PrintQueue();
+
+            //int count = nodeQueue.Count();
+            //Console.WriteLine($"Número de elementos na fila: {count}");
+
+            //var dequeuedNode = nodeQueue.Dequeue();
+            //Console.WriteLine($"Elemento removido da fila: {dequeuedNode?.Value}");
 
             //stopwatch.Stop();
 

@@ -1,4 +1,4 @@
-﻿namespace Algoritmos.Domain.Models.LinkedList
+﻿namespace Algoritmos.Domain.Models
 {
     public class Node<T>
     {
@@ -8,7 +8,7 @@
 
         public Node(T value, Node<T>? next = null, Node<T>? previous = null)
         {
-            Value = value; 
+            Value = value;
             Next = next;
             Previous = previous;
         }
